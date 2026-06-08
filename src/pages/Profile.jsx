@@ -32,7 +32,7 @@ export default function Profile() {
 
   const handleSignOut = async () => {
     await signOut();
-    navigate('/auth');
+    navigate('/goodbye');
   };
 
   const handleDeleteAccount = async () => {
@@ -42,7 +42,7 @@ export default function Profile() {
       // e.g., await fetch('/api/user/delete', { method: 'DELETE' });
       alert("Account deletion requested. Your session will now be terminated.");
       await signOut();
-      navigate('/auth');
+      navigate('/goodbye');
     }
   };
 

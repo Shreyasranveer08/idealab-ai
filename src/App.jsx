@@ -16,6 +16,7 @@ import UpgradeModal from "./components/UpgradeModal";
 import Profile from "./pages/Profile";
 import Copilot from "./pages/Copilot";
 import Auth from "./pages/Auth";
+import Goodbye from "./pages/Goodbye";
 import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { Toaster } from "react-hot-toast";
@@ -61,43 +62,31 @@ function App() {
           }} 
         />
         <Routes>
-          {/* Full Screen Auth Route */}
+          {/* Full Screen Public Routes */}
           <Route path="/auth" element={<Auth />} />
+          <Route path="/goodbye" element={<Goodbye />} />
 
-          {/* App Routes wrapped in Layout */}
+          {/* App Routes wrapped in Layout and ProtectedRoute to enforce login */}
           <Route path="*" element={
-            <Layout>
-              <UpgradeModal />
-              <Routes>
-                {/* Public Routes */}
-                <Route path="/" element={<Dashboard />} />
-                <Route path="/explore" element={<StartupExplorer />} />
-                <Route path="/startup/:id" element={<StartupDetail />} />
-                <Route path="/trends" element={<TrendRadar />} />
-                <Route path="/lab" element={<OpportunityLab />} />
-                <Route path="/history" element={<AnalysisHistory />} />
-                <Route path="/niches" element={<NicheReports />} />
-                <Route path="/pricing" element={<Pricing />} />
-                <Route path="/briefs" element={<DailyBriefs />} />
-
-                {/* Protected Routes */}
-                <Route path="/workspace" element={
-                  <ProtectedRoute>
-                    <Workspace />
-                  </ProtectedRoute>
-                } />
-                <Route path="/profile" element={
-                  <ProtectedRoute>
-                    <Profile />
-                  </ProtectedRoute>
-                } />
-                <Route path="/copilot" element={
-                  <ProtectedRoute>
-                    <Copilot />
-                  </ProtectedRoute>
-                } />
-              </Routes>
-            </Layout>
+            <ProtectedRoute>
+              <Layout>
+                <UpgradeModal />
+                <Routes>
+                  <Route path="/" element={<Dashboard />} />
+                  <Route path="/explore" element={<StartupExplorer />} />
+                  <Route path="/startup/:id" element={<StartupDetail />} />
+                  <Route path="/trends" element={<TrendRadar />} />
+                  <Route path="/lab" element={<OpportunityLab />} />
+                  <Route path="/history" element={<AnalysisHistory />} />
+                  <Route path="/niches" element={<NicheReports />} />
+                  <Route path="/pricing" element={<Pricing />} />
+                  <Route path="/briefs" element={<DailyBriefs />} />
+                  <Route path="/workspace" element={<Workspace />} />
+                  <Route path="/profile" element={<Profile />} />
+                  <Route path="/copilot" element={<Copilot />} />
+                </Routes>
+              </Layout>
+            </ProtectedRoute>
           } />
         </Routes>
         </motion.div>
