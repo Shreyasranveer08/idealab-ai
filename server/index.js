@@ -378,7 +378,14 @@ cron.schedule('0 */6 * * *', async () => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-  console.log("Scheduled cron job for ingestion (every 6 hours).");
-});
+
+// Only listen if not running on Vercel Serverless
+if (process.env.NODE_ENV !== 'production' || process.env.RENDER) {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+    console.log("Scheduled cron job for ingestion (every 6 hours).");
+  });
+}
+
+// Export the app for Vercel Serverless
+module.exports = app;
