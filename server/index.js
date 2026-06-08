@@ -8,9 +8,13 @@ const { generateDailyBrief } = require('./services/dailyBrief');
 const cron = require('node-cron');
 const aiEngine = require('./services/aiEngine');
 const ideaValidatorEngine = require('./services/ideaValidatorEngine');
-const emailService = require('./services/emailService');
-
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({
+  datasources: {
+    db: {
+      url: process.env.DATABASE_URL
+    }
+  }
+});
 const app = express();
 app.use((req, res, next) => {
   res.setHeader('X-DB-URL-Len', process.env.DATABASE_URL ? process.env.DATABASE_URL.length : 'UNDEFINED');
