@@ -80,6 +80,12 @@ export default function Sidebar() {
           <div className="text-xs text-text/50 truncate">{user ? user.email : 'Sign In / Register'}</div>
         </div>
       </Link>
+
+      <div className="mt-2 text-center">
+        <a href="https://github.com/Shreyasranveer08" target="_blank" rel="noreferrer" className="text-[10px] text-text/40 hover:text-primary transition-colors">
+          Built with ❤️ by Shreyas Ranveer
+        </a>
+      </div>
     </div>
   );
 }
