@@ -12,6 +12,11 @@ const emailService = require('./services/emailService');
 
 const prisma = new PrismaClient();
 const app = express();
+app.use((req, res, next) => {
+  res.setHeader('X-DB-URL-Len', process.env.DATABASE_URL ? process.env.DATABASE_URL.length : 'UNDEFINED');
+  res.setHeader('X-Env-Keys', Object.keys(process.env).filter(k => k.includes('DATABASE') || k.includes('GEMINI')).join(','));
+  next();
+});
 app.use(cors());
 app.use(express.json());
 
