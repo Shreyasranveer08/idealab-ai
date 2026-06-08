@@ -1,0 +1,97 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Startup {
+  id          String   @id @default(uuid())
+  name        String
+  description String
+  url         String
+  sources     String   // Comma separated, e.g., 'PRODUCT_HUNT, HACKER_NEWS'
+  externalId  String   @unique
+  category    String?
+  pricing     String?
+  rawPayload  String?  // JSON string of the raw ingestion payload
+  engagementMetrics String? // JSON string containing upvotes, stars, points etc.
+  launchedAt  DateTime @default(now())
+  createdAt   DateTime @default(now())
+
+  analysis    OpportunityAnalysis?
+}
+
+model OpportunityAnalysis {
+  id              String   @id @default(uuid())
+  startupId       String   @unique
+  startup         Startup  @relation(fields: [startupId], references: [id], onDelete: Cascade)
+  
+  overallScore    Int
+  demandScore     Int
+  competitionScore Int
+  monetizationScore Int
+  confidenceScore Int      // AI confidence 0-100
+  
+  aiSummary       String
+  niche           String
+  swotAnalysis    String?
+
+  createdAt       DateTime @default(now())
+}
+
+model DailyBrief {
+  id               String   @id @default(uuid())
+  date             DateTime @default(now())
+  summary          String
+  fastestGrowingNiche String?
+  underservedNiche   String?
+  
+  emergingTrends     String?
+  saturatedMarkets   String?
+  recommendedIdeas   String?
+  
+  topOpportunityId String?
+}
+
+model NicheReport {
+  id              String   @id @default(uuid())
+  niche           String
+  date            DateTime @default(now())
+  
+  marketOverview  String
+  startupsAnalyzed Int
+  fastestGrowing  String
+  saturatedSegments String
+  underserved     String
+  scoreDistribution String // JSON string
+  topStartups     String // JSON string mapping IDs or names
+  recommendedIdeas String
+  confidenceScore Int
+  
+  createdAt       DateTime @default(now())
+}
+
+model ValidatedIdea {
+  id              String   @id @default(uuid())
+  rawIdea         String
+  
+  overallScore    Int
+  demandScore     Int
+  competitionScore Int
+  monetizationScore Int
+  confidenceScore Int
+  
+  niche           String
+  aiSummary       String
+  keyRisks        String
+  advantages      String
+  positioning     String
+  
+  competitors     String // JSON array of matched competitor startup IDs
+  pitchDeck       String? // JSON string of the pitch deck structure
+  
+  createdAt       DateTime @default(now())
+}

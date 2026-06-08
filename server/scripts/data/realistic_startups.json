@@ -1,0 +1,802 @@
+[
+  {
+    "name": "ChatDoc AI",
+    "category": "Generic AI wrapper",
+    "description": "Upload a PDF and chat with it. Uses ChatGPT API.",
+    "url": "https://example.com/chatdocai",
+    "externalId": "mock_6752049",
+    "launchedAt": "2026-04-21T17:04:33.056Z"
+  },
+  {
+    "name": "TwitterBot Pro",
+    "category": "Generic AI wrapper",
+    "description": "Generate viral tweets using AI.",
+    "url": "https://example.com/twitterbotpro",
+    "externalId": "mock_9145490",
+    "launchedAt": "2026-05-21T08:52:35.218Z"
+  },
+  {
+    "name": "BlogWriter",
+    "category": "Generic AI wrapper",
+    "description": "Write SEO blog posts in seconds with AI.",
+    "url": "https://example.com/blogwriter",
+    "externalId": "mock_8188150",
+    "launchedAt": "2026-04-22T23:00:58.442Z"
+  },
+  {
+    "name": "EmailGenie",
+    "category": "Generic AI wrapper",
+    "description": "AI email assistant that writes replies for you.",
+    "url": "https://example.com/emailgenie",
+    "externalId": "mock_8383756",
+    "launchedAt": "2026-06-03T15:03:20.274Z"
+  },
+  {
+    "name": "SummaryBot",
+    "category": "Generic AI wrapper",
+    "description": "Summarize long YouTube videos using AI.",
+    "url": "https://example.com/summarybot",
+    "externalId": "mock_4359090",
+    "launchedAt": "2026-04-30T23:19:48.364Z"
+  },
+  {
+    "name": "CoverLetter AI",
+    "category": "Generic AI wrapper",
+    "description": "Generate perfect cover letters with OpenAI.",
+    "url": "https://example.com/coverletterai",
+    "externalId": "mock_5982527",
+    "launchedAt": "2026-05-13T07:19:41.417Z"
+  },
+  {
+    "name": "InstaCaption",
+    "category": "Generic AI wrapper",
+    "description": "AI-generated captions for your Instagram posts.",
+    "url": "https://example.com/instacaption",
+    "externalId": "mock_3206829",
+    "launchedAt": "2026-02-20T22:44:48.072Z"
+  },
+  {
+    "name": "DevAgent",
+    "category": "AI Agents",
+    "description": "Autonomous AI software engineer that fixes GitHub issues.",
+    "url": "https://example.com/devagent",
+    "externalId": "mock_1689692",
+    "launchedAt": "2026-04-07T10:54:35.346Z"
+  },
+  {
+    "name": "SalesOps Agent",
+    "category": "AI Agents",
+    "description": "AI agent that researches leads, drafts emails, and updates Salesforce.",
+    "url": "https://example.com/salesopsagent",
+    "externalId": "mock_4526573",
+    "launchedAt": "2026-03-06T23:20:38.959Z"
+  },
+  {
+    "name": "CustomerCare.ai",
+    "category": "AI Agents",
+    "description": "Autonomous voice and text agent that resolves tier-1 customer tickets.",
+    "url": "https://example.com/customercare.ai",
+    "externalId": "mock_515423",
+    "launchedAt": "2026-03-02T16:02:33.783Z"
+  },
+  {
+    "name": "DataScrape Agent",
+    "category": "AI Agents",
+    "description": "AI agent that navigates websites and extracts structured data autonomously.",
+    "url": "https://example.com/datascrapeagent",
+    "externalId": "mock_5393743",
+    "launchedAt": "2026-06-03T00:24:40.370Z"
+  },
+  {
+    "name": "HR Onboarder",
+    "category": "AI Agents",
+    "description": "AI agent that manages new employee onboarding workflows and Q&A.",
+    "url": "https://example.com/hronboarder",
+    "externalId": "mock_5664330",
+    "launchedAt": "2026-04-25T06:42:36.257Z"
+  },
+  {
+    "name": "QA Agent X",
+    "category": "AI Agents",
+    "description": "Autonomous agent that writes and runs end-to-end tests for web apps.",
+    "url": "https://example.com/qaagentx",
+    "externalId": "mock_4256944",
+    "launchedAt": "2026-03-22T06:55:03.379Z"
+  },
+  {
+    "name": "ResearchMate",
+    "category": "AI Agents",
+    "description": "AI agent that autonomously performs academic literature reviews.",
+    "url": "https://example.com/researchmate",
+    "externalId": "mock_5647960",
+    "launchedAt": "2026-05-23T20:55:54.959Z"
+  },
+  {
+    "name": "Agentic Cloud",
+    "category": "AI Agents",
+    "description": "Orchestrate swarms of specialized AI agents for enterprise workflows.",
+    "url": "https://example.com/agenticcloud",
+    "externalId": "mock_5417759",
+    "launchedAt": "2026-04-21T20:54:17.881Z"
+  },
+  {
+    "name": "ZeroTrust OS",
+    "category": "Cybersecurity SaaS",
+    "description": "Enterprise zero-trust network access (ZTNA) platform.",
+    "url": "https://example.com/zerotrustos",
+    "externalId": "mock_943330",
+    "launchedAt": "2026-04-04T22:40:35.224Z"
+  },
+  {
+    "name": "PhishGuard",
+    "category": "Cybersecurity SaaS",
+    "description": "AI-powered phishing simulation and employee training platform.",
+    "url": "https://example.com/phishguard",
+    "externalId": "mock_4504337",
+    "launchedAt": "2026-03-12T21:25:06.304Z"
+  },
+  {
+    "name": "CloudSec Monitor",
+    "category": "Cybersecurity SaaS",
+    "description": "Continuous monitoring for AWS, GCP, and Azure misconfigurations.",
+    "url": "https://example.com/cloudsecmonitor",
+    "externalId": "mock_9070125",
+    "launchedAt": "2026-04-04T09:56:39.410Z"
+  },
+  {
+    "name": "SecretScanner",
+    "category": "Cybersecurity SaaS",
+    "description": "Prevent secret leaks in CI/CD pipelines before they happen.",
+    "url": "https://example.com/secretscanner",
+    "externalId": "mock_6956538",
+    "launchedAt": "2026-05-14T05:24:19.258Z"
+  },
+  {
+    "name": "IAM Auditor",
+    "category": "Cybersecurity SaaS",
+    "description": "Automated identity and access management auditing for compliance.",
+    "url": "https://example.com/iamauditor",
+    "externalId": "mock_3678614",
+    "launchedAt": "2026-04-05T18:02:24.145Z"
+  },
+  {
+    "name": "RansomwareShield",
+    "category": "Cybersecurity SaaS",
+    "description": "Endpoint detection and response tailored for ransomware prevention.",
+    "url": "https://example.com/ransomwareshield",
+    "externalId": "mock_789388",
+    "launchedAt": "2026-02-13T23:03:27.627Z"
+  },
+  {
+    "name": "API Sentinel",
+    "category": "Cybersecurity SaaS",
+    "description": "Runtime API security and vulnerability scanning.",
+    "url": "https://example.com/apisentinel",
+    "externalId": "mock_2426091",
+    "launchedAt": "2026-03-22T08:39:23.219Z"
+  },
+  {
+    "name": "MediSchedule",
+    "category": "Healthcare SaaS",
+    "description": "HIPAA-compliant appointment booking for private clinics.",
+    "url": "https://example.com/medischedule",
+    "externalId": "mock_6060334",
+    "launchedAt": "2026-05-22T09:12:27.269Z"
+  },
+  {
+    "name": "CareTeam Sync",
+    "category": "Healthcare SaaS",
+    "description": "Secure communication and care coordination for hospital staff.",
+    "url": "https://example.com/careteamsync",
+    "externalId": "mock_5847818",
+    "launchedAt": "2026-04-06T07:50:39.933Z"
+  },
+  {
+    "name": "TeleHealth Pro",
+    "category": "Healthcare SaaS",
+    "description": "All-in-one telemedicine platform with integrated billing.",
+    "url": "https://example.com/telehealthpro",
+    "externalId": "mock_6224151",
+    "launchedAt": "2026-02-11T10:52:53.968Z"
+  },
+  {
+    "name": "PatientPortalX",
+    "category": "Healthcare SaaS",
+    "description": "Patient engagement and remote monitoring software.",
+    "url": "https://example.com/patientportalx",
+    "externalId": "mock_264256",
+    "launchedAt": "2026-05-11T08:22:45.415Z"
+  },
+  {
+    "name": "DentalCRM",
+    "category": "Healthcare SaaS",
+    "description": "Specialized CRM and patient retention software for dental practices.",
+    "url": "https://example.com/dentalcrm",
+    "externalId": "mock_9199083",
+    "launchedAt": "2026-02-19T12:15:35.554Z"
+  },
+  {
+    "name": "EHR Connect",
+    "category": "Healthcare SaaS",
+    "description": "Interoperability API for seamless data transfer between EHR systems.",
+    "url": "https://example.com/ehrconnect",
+    "externalId": "mock_2276369",
+    "launchedAt": "2026-04-09T16:08:04.773Z"
+  },
+  {
+    "name": "MedBilling AI",
+    "category": "Healthcare SaaS",
+    "description": "Automated medical coding and claim denial management.",
+    "url": "https://example.com/medbillingai",
+    "externalId": "mock_8708302",
+    "launchedAt": "2026-02-13T18:24:14.023Z"
+  },
+  {
+    "name": "ClinicalTrial Match",
+    "category": "Healthcare SaaS",
+    "description": "Platform to match patients with ongoing clinical trials based on EHR.",
+    "url": "https://example.com/clinicaltrialmatch",
+    "externalId": "mock_1118018",
+    "launchedAt": "2026-05-02T09:19:08.954Z"
+  },
+  {
+    "name": "SpendTrack",
+    "category": "FinTech tools",
+    "description": "Automated expense management and corporate cards for startups.",
+    "url": "https://example.com/spendtrack",
+    "externalId": "mock_6199052",
+    "launchedAt": "2026-02-25T17:04:02.041Z"
+  },
+  {
+    "name": "InvoiceFlow",
+    "category": "FinTech tools",
+    "description": "B2B invoicing and automated accounts receivable collections.",
+    "url": "https://example.com/invoiceflow",
+    "externalId": "mock_1610897",
+    "launchedAt": "2026-02-27T18:44:49.240Z"
+  },
+  {
+    "name": "CryptoTax Pro",
+    "category": "FinTech tools",
+    "description": "Automated cryptocurrency tax calculation and reporting.",
+    "url": "https://example.com/cryptotaxpro",
+    "externalId": "mock_2295362",
+    "launchedAt": "2026-02-16T07:59:04.478Z"
+  },
+  {
+    "name": "PayrollGlobal",
+    "category": "FinTech tools",
+    "description": "Unified global payroll API for remote teams.",
+    "url": "https://example.com/payrollglobal",
+    "externalId": "mock_3351293",
+    "launchedAt": "2026-03-22T02:45:25.390Z"
+  },
+  {
+    "name": "CreditBuilder",
+    "category": "FinTech tools",
+    "description": "App that helps consumers build credit through rent payments.",
+    "url": "https://example.com/creditbuilder",
+    "externalId": "mock_1473769",
+    "launchedAt": "2026-05-08T10:59:17.636Z"
+  },
+  {
+    "name": "OpenBank API",
+    "category": "FinTech tools",
+    "description": "Unified API for open banking connections in emerging markets.",
+    "url": "https://example.com/openbankapi",
+    "externalId": "mock_8512146",
+    "launchedAt": "2026-02-23T16:26:01.766Z"
+  },
+  {
+    "name": "WealthRobo",
+    "category": "FinTech tools",
+    "description": "Robo-advisor infrastructure for modern wealth management firms.",
+    "url": "https://example.com/wealthrobo",
+    "externalId": "mock_2123789",
+    "launchedAt": "2026-05-13T11:24:13.698Z"
+  },
+  {
+    "name": "FraudDetect",
+    "category": "FinTech tools",
+    "description": "Real-time transaction fraud detection using machine learning.",
+    "url": "https://example.com/frauddetect",
+    "externalId": "mock_1691694",
+    "launchedAt": "2026-04-10T15:15:54.000Z"
+  },
+  {
+    "name": "LogStream",
+    "category": "Developer tools",
+    "description": "High-performance distributed logging platform for microservices.",
+    "url": "https://example.com/logstream",
+    "externalId": "mock_2477297",
+    "launchedAt": "2026-03-15T16:51:03.346Z"
+  },
+  {
+    "name": "DeployPreview",
+    "category": "Developer tools",
+    "description": "Instant staging environments for every pull request.",
+    "url": "https://example.com/deploypreview",
+    "externalId": "mock_4871597",
+    "launchedAt": "2026-05-23T19:55:39.758Z"
+  },
+  {
+    "name": "DB Branch",
+    "category": "Developer tools",
+    "description": "Database branching and schema migration management tool.",
+    "url": "https://example.com/dbbranch",
+    "externalId": "mock_9809009",
+    "launchedAt": "2026-05-05T11:23:32.966Z"
+  },
+  {
+    "name": "AuthKit",
+    "category": "Developer tools",
+    "description": "Drop-in authentication and user management component for React.",
+    "url": "https://example.com/authkit",
+    "externalId": "mock_8897501",
+    "launchedAt": "2026-04-27T23:15:47.443Z"
+  },
+  {
+    "name": "API Mocker",
+    "category": "Developer tools",
+    "description": "Generate mock APIs from OpenAPI specs in seconds.",
+    "url": "https://example.com/apimocker",
+    "externalId": "mock_3040465",
+    "launchedAt": "2026-05-01T12:35:43.372Z"
+  },
+  {
+    "name": "StateInspector",
+    "category": "Developer tools",
+    "description": "Advanced debugging tool for complex state machines.",
+    "url": "https://example.com/stateinspector",
+    "externalId": "mock_8111910",
+    "launchedAt": "2026-04-07T19:20:19.236Z"
+  },
+  {
+    "name": "KubeDeploy",
+    "category": "Developer tools",
+    "description": "Simplified Kubernetes deployment manager for small teams.",
+    "url": "https://example.com/kubedeploy",
+    "externalId": "mock_8259552",
+    "launchedAt": "2026-03-08T00:24:00.600Z"
+  },
+  {
+    "name": "LoadTest Pro",
+    "category": "Developer tools",
+    "description": "Distributed load testing framework for high-scale APIs.",
+    "url": "https://example.com/loadtestpro",
+    "externalId": "mock_2066792",
+    "launchedAt": "2026-04-03T19:03:54.358Z"
+  },
+  {
+    "name": "Tailwind UI Builder",
+    "category": "Developer tools",
+    "description": "Visual drag-and-drop builder that exports raw Tailwind React code.",
+    "url": "https://example.com/tailwinduibuilder",
+    "externalId": "mock_1340454",
+    "launchedAt": "2026-02-21T22:07:00.302Z"
+  },
+  {
+    "name": "YogaStudio Manager",
+    "category": "Vertical SaaS",
+    "description": "Management software specifically built for independent yoga studios.",
+    "url": "https://example.com/yogastudiomanager",
+    "externalId": "mock_5306296",
+    "launchedAt": "2026-04-15T20:16:09.467Z"
+  },
+  {
+    "name": "RoofingCRM",
+    "category": "Vertical SaaS",
+    "description": "Lead tracking, estimating, and job management for roofing contractors.",
+    "url": "https://example.com/roofingcrm",
+    "externalId": "mock_5700874",
+    "launchedAt": "2026-05-16T23:53:36.270Z"
+  },
+  {
+    "name": "BreweryOps",
+    "category": "Vertical SaaS",
+    "description": "Inventory and production management for craft breweries.",
+    "url": "https://example.com/breweryops",
+    "externalId": "mock_7244112",
+    "launchedAt": "2026-04-18T19:17:09.371Z"
+  },
+  {
+    "name": "MarinaMaster",
+    "category": "Vertical SaaS",
+    "description": "Dock management and billing software for boat marinas.",
+    "url": "https://example.com/marinamaster",
+    "externalId": "mock_1414439",
+    "launchedAt": "2026-02-19T05:52:43.395Z"
+  },
+  {
+    "name": "AutoShop Pro",
+    "category": "Vertical SaaS",
+    "description": "Repair tracking and customer communication for auto mechanics.",
+    "url": "https://example.com/autoshoppro",
+    "externalId": "mock_7405610",
+    "launchedAt": "2026-03-25T15:12:29.875Z"
+  },
+  {
+    "name": "NannyAgency OS",
+    "category": "Vertical SaaS",
+    "description": "Placement tracking and payroll for nanny placement agencies.",
+    "url": "https://example.com/nannyagencyos",
+    "externalId": "mock_396874",
+    "launchedAt": "2026-03-04T19:50:38.554Z"
+  },
+  {
+    "name": "Landscaper Route",
+    "category": "Vertical SaaS",
+    "description": "Route optimization and billing for landscaping businesses.",
+    "url": "https://example.com/landscaperroute",
+    "externalId": "mock_784728",
+    "launchedAt": "2026-05-18T10:31:38.262Z"
+  },
+  {
+    "name": "Gymnastics Score",
+    "category": "Vertical SaaS",
+    "description": "Meet management and scoring software for competitive gymnastics.",
+    "url": "https://example.com/gymnasticsscore",
+    "externalId": "mock_795871",
+    "launchedAt": "2026-04-19T23:41:08.795Z"
+  },
+  {
+    "name": "PestControl Flow",
+    "category": "Vertical SaaS",
+    "description": "Scheduling and chemical usage tracking for pest control companies.",
+    "url": "https://example.com/pestcontrolflow",
+    "externalId": "mock_1153702",
+    "launchedAt": "2026-03-24T17:41:21.634Z"
+  },
+  {
+    "name": "FindAFounder",
+    "category": "Marketplaces",
+    "description": "Marketplace connecting technical and non-technical co-founders.",
+    "url": "https://example.com/findafounder",
+    "externalId": "mock_8631298",
+    "launchedAt": "2026-04-30T02:04:07.609Z"
+  },
+  {
+    "name": "EquipRent",
+    "category": "Marketplaces",
+    "description": "Peer-to-peer marketplace for renting heavy construction equipment.",
+    "url": "https://example.com/equiprent",
+    "externalId": "mock_7605275",
+    "launchedAt": "2026-04-02T13:39:08.323Z"
+  },
+  {
+    "name": "VintageWatch Hub",
+    "category": "Marketplaces",
+    "description": "Verified marketplace for buying and selling vintage luxury watches.",
+    "url": "https://example.com/vintagewatchhub",
+    "externalId": "mock_3066817",
+    "launchedAt": "2026-04-28T11:23:35.460Z"
+  },
+  {
+    "name": "LocalTutor Match",
+    "category": "Marketplaces",
+    "description": "Connects parents with verified local in-person tutors.",
+    "url": "https://example.com/localtutormatch",
+    "externalId": "mock_7813519",
+    "launchedAt": "2026-02-14T10:04:21.357Z"
+  },
+  {
+    "name": "DevShop Network",
+    "category": "Marketplaces",
+    "description": "B2B marketplace for finding vetted software development agencies.",
+    "url": "https://example.com/devshopnetwork",
+    "externalId": "mock_7757208",
+    "launchedAt": "2026-02-17T23:25:22.780Z"
+  },
+  {
+    "name": "CreatorSponsor",
+    "category": "Marketplaces",
+    "description": "Platform connecting niche newsletter creators with relevant sponsors.",
+    "url": "https://example.com/creatorsponsor",
+    "externalId": "mock_3996130",
+    "launchedAt": "2026-02-19T20:49:25.253Z"
+  },
+  {
+    "name": "ChefAtHome",
+    "category": "Marketplaces",
+    "description": "Marketplace to hire private chefs for dinner parties.",
+    "url": "https://example.com/chefathome",
+    "externalId": "mock_6447296",
+    "launchedAt": "2026-03-21T08:46:25.350Z"
+  },
+  {
+    "name": "FocusTime",
+    "category": "Productivity apps",
+    "description": "Pomodoro timer integrated with calendar block scheduling.",
+    "url": "https://example.com/focustime",
+    "externalId": "mock_1350604",
+    "launchedAt": "2026-03-16T22:56:43.976Z"
+  },
+  {
+    "name": "TaskSync",
+    "category": "Productivity apps",
+    "description": "Unified inbox for GitHub, Jira, and Asana tasks.",
+    "url": "https://example.com/tasksync",
+    "externalId": "mock_8791773",
+    "launchedAt": "2026-02-23T04:26:55.443Z"
+  },
+  {
+    "name": "MindMap AI",
+    "category": "Productivity apps",
+    "description": "AI-assisted brainstorming and mind-mapping tool.",
+    "url": "https://example.com/mindmapai",
+    "externalId": "mock_4446198",
+    "launchedAt": "2026-04-24T07:31:39.025Z"
+  },
+  {
+    "name": "NoteFlow",
+    "category": "Productivity apps",
+    "description": "Bi-directional linked note-taking app for researchers.",
+    "url": "https://example.com/noteflow",
+    "externalId": "mock_8834707",
+    "launchedAt": "2026-04-22T09:00:36.127Z"
+  },
+  {
+    "name": "MeetingSummarizer",
+    "category": "Productivity apps",
+    "description": "Automatically record and transcribe Google Meets.",
+    "url": "https://example.com/meetingsummarizer",
+    "externalId": "mock_5464631",
+    "launchedAt": "2026-05-09T20:24:42.643Z"
+  },
+  {
+    "name": "HabitTracker X",
+    "category": "Productivity apps",
+    "description": "Gamified habit tracking app with social accountability.",
+    "url": "https://example.com/habittrackerx",
+    "externalId": "mock_5532912",
+    "launchedAt": "2026-05-30T21:23:49.174Z"
+  },
+  {
+    "name": "TimeBlocker Pro",
+    "category": "Productivity apps",
+    "description": "Visual calendar planner for deep work sessions.",
+    "url": "https://example.com/timeblockerpro",
+    "externalId": "mock_8061329",
+    "launchedAt": "2026-04-30T20:15:45.510Z"
+  },
+  {
+    "name": "TabManager AI",
+    "category": "Productivity apps",
+    "description": "Browser extension that automatically categorizes and closes tabs.",
+    "url": "https://example.com/tabmanagerai",
+    "externalId": "mock_9818534",
+    "launchedAt": "2026-05-19T13:01:33.625Z"
+  },
+  {
+    "name": "CartAbandon",
+    "category": "E-commerce tools",
+    "description": "SMS and email sequences to recover abandoned Shopify carts.",
+    "url": "https://example.com/cartabandon",
+    "externalId": "mock_2171169",
+    "launchedAt": "2026-06-03T12:41:10.395Z"
+  },
+  {
+    "name": "ReviewAnalyzer",
+    "category": "E-commerce tools",
+    "description": "AI tool that extracts insights from thousands of Amazon product reviews.",
+    "url": "https://example.com/reviewanalyzer",
+    "externalId": "mock_9276840",
+    "launchedAt": "2026-03-05T17:52:26.354Z"
+  },
+  {
+    "name": "DynamicPricing",
+    "category": "E-commerce tools",
+    "description": "Algorithmic pricing optimization for independent D2C brands.",
+    "url": "https://example.com/dynamicpricing",
+    "externalId": "mock_4060848",
+    "launchedAt": "2026-03-14T00:53:19.021Z"
+  },
+  {
+    "name": "ReturnFlow",
+    "category": "E-commerce tools",
+    "description": "Automated returns portal and logistics for ecommerce.",
+    "url": "https://example.com/returnflow",
+    "externalId": "mock_1453975",
+    "launchedAt": "2026-04-26T12:36:48.250Z"
+  },
+  {
+    "name": "UGC Source",
+    "category": "E-commerce tools",
+    "description": "Platform for brands to collect and license user-generated content.",
+    "url": "https://example.com/ugcsource",
+    "externalId": "mock_3784310",
+    "launchedAt": "2026-05-17T04:00:05.087Z"
+  },
+  {
+    "name": "LoyaltyBoost",
+    "category": "E-commerce tools",
+    "description": "Points and referral program software for Shopify stores.",
+    "url": "https://example.com/loyaltyboost",
+    "externalId": "mock_2457174",
+    "launchedAt": "2026-03-18T07:23:31.800Z"
+  },
+  {
+    "name": "InventorySync",
+    "category": "E-commerce tools",
+    "description": "Multi-channel inventory synchronization across Shopify, Amazon, and Etsy.",
+    "url": "https://example.com/inventorysync",
+    "externalId": "mock_766618",
+    "launchedAt": "2026-03-24T05:54:15.937Z"
+  },
+  {
+    "name": "VoiceClone",
+    "category": "Voice AI",
+    "description": "Generate ultra-realistic voice clones from a 10-second sample.",
+    "url": "https://example.com/voiceclone",
+    "externalId": "mock_187046",
+    "launchedAt": "2026-04-27T20:24:19.697Z"
+  },
+  {
+    "name": "PodcastDub",
+    "category": "Voice AI",
+    "description": "Automatically dub podcasts into 20+ languages using AI voice.",
+    "url": "https://example.com/podcastdub",
+    "externalId": "mock_7277778",
+    "launchedAt": "2026-05-05T10:50:31.678Z"
+  },
+  {
+    "name": "CallCenter AI",
+    "category": "Voice AI",
+    "description": "Inbound voice AI agent that handles reservations and FAQs.",
+    "url": "https://example.com/callcenterai",
+    "externalId": "mock_965803",
+    "launchedAt": "2026-03-16T19:31:45.510Z"
+  },
+  {
+    "name": "AudioBook Maker",
+    "category": "Voice AI",
+    "description": "Convert text to high-quality audiobooks with emotive voices.",
+    "url": "https://example.com/audiobookmaker",
+    "externalId": "mock_6662690",
+    "launchedAt": "2026-05-30T00:31:31.132Z"
+  },
+  {
+    "name": "AccentCoach",
+    "category": "Voice AI",
+    "description": "AI voice analysis app for accent reduction and pronunciation.",
+    "url": "https://example.com/accentcoach",
+    "externalId": "mock_7571647",
+    "launchedAt": "2026-05-10T14:41:28.373Z"
+  },
+  {
+    "name": "VoiceAuth",
+    "category": "Voice AI",
+    "description": "Biometric voice authentication API for banking apps.",
+    "url": "https://example.com/voiceauth",
+    "externalId": "mock_2554090",
+    "launchedAt": "2026-02-15T14:02:33.734Z"
+  },
+  {
+    "name": "SonicBrand",
+    "category": "Voice AI",
+    "description": "AI generator for custom sound logos and brand jingles.",
+    "url": "https://example.com/sonicbrand",
+    "externalId": "mock_7940165",
+    "launchedAt": "2026-03-08T01:26:48.337Z"
+  },
+  {
+    "name": "MathGenius",
+    "category": "Education technology",
+    "description": "Adaptive math learning platform for K-12 students.",
+    "url": "https://example.com/mathgenius",
+    "externalId": "mock_4950055",
+    "launchedAt": "2026-03-10T04:08:06.170Z"
+  },
+  {
+    "name": "VocabBuilder",
+    "category": "Education technology",
+    "description": "Spaced-repetition flashcard app for learning foreign languages.",
+    "url": "https://example.com/vocabbuilder",
+    "externalId": "mock_7780640",
+    "launchedAt": "2026-03-02T08:36:10.166Z"
+  },
+  {
+    "name": "CourseCreator AI",
+    "category": "Education technology",
+    "description": "Generate full curriculum and slide decks from a topic prompt.",
+    "url": "https://example.com/coursecreatorai",
+    "externalId": "mock_69317",
+    "launchedAt": "2026-03-03T20:28:45.946Z"
+  },
+  {
+    "name": "StudentEngage",
+    "category": "Education technology",
+    "description": "Real-time polling and Q&A platform for large university lectures.",
+    "url": "https://example.com/studentengage",
+    "externalId": "mock_5567647",
+    "launchedAt": "2026-05-19T19:29:43.749Z"
+  },
+  {
+    "name": "CodeCamp Kids",
+    "category": "Education technology",
+    "description": "Gamified platform teaching Python to children 8-12.",
+    "url": "https://example.com/codecampkids",
+    "externalId": "mock_7024834",
+    "launchedAt": "2026-04-06T06:13:00.777Z"
+  },
+  {
+    "name": "AlumniConnect",
+    "category": "Education technology",
+    "description": "Networking platform for university alumni mentoring programs.",
+    "url": "https://example.com/alumniconnect",
+    "externalId": "mock_8306732",
+    "launchedAt": "2026-05-01T03:14:03.159Z"
+  },
+  {
+    "name": "GradeAssist",
+    "category": "Education technology",
+    "description": "AI grading assistant for long-form essays and written assignments.",
+    "url": "https://example.com/gradeassist",
+    "externalId": "mock_5443991",
+    "launchedAt": "2026-05-05T19:37:47.617Z"
+  },
+  {
+    "name": "SpecialEd Tracker",
+    "category": "Education technology",
+    "description": "IEP goal tracking and reporting software for special education teachers.",
+    "url": "https://example.com/specialedtracker",
+    "externalId": "mock_7828481",
+    "launchedAt": "2026-05-14T18:46:22.147Z"
+  },
+  {
+    "name": "ProcurePro",
+    "category": "Enterprise software",
+    "description": "Enterprise procurement and vendor management software.",
+    "url": "https://example.com/procurepro",
+    "externalId": "mock_7115954",
+    "launchedAt": "2026-03-18T08:12:02.308Z"
+  },
+  {
+    "name": "ERPSync",
+    "category": "Enterprise software",
+    "description": "Modern integration layer for legacy SAP and Oracle ERPs.",
+    "url": "https://example.com/erpsync",
+    "externalId": "mock_8327257",
+    "launchedAt": "2026-06-04T15:20:13.143Z"
+  },
+  {
+    "name": "ComplianceOS",
+    "category": "Enterprise software",
+    "description": "Centralized platform for managing SOC2, ISO27001, and GDPR compliance.",
+    "url": "https://example.com/complianceos",
+    "externalId": "mock_9346065",
+    "launchedAt": "2026-05-15T22:51:35.319Z"
+  },
+  {
+    "name": "CorpComms",
+    "category": "Enterprise software",
+    "description": "Internal communications platform for distributed enterprises.",
+    "url": "https://example.com/corpcomms",
+    "externalId": "mock_2892749",
+    "launchedAt": "2026-04-26T10:39:29.143Z"
+  },
+  {
+    "name": "SupplyChain Tower",
+    "category": "Enterprise software",
+    "description": "End-to-end visibility and risk management for global supply chains.",
+    "url": "https://example.com/supplychaintower",
+    "externalId": "mock_4155098",
+    "launchedAt": "2026-05-31T21:35:47.915Z"
+  },
+  {
+    "name": "FacilityManager",
+    "category": "Enterprise software",
+    "description": "IoT-enabled facility management and maintenance scheduling.",
+    "url": "https://example.com/facilitymanager",
+    "externalId": "mock_3920680",
+    "launchedAt": "2026-05-29T19:27:34.139Z"
+  },
+  {
+    "name": "Enterprise Search",
+    "category": "Enterprise software",
+    "description": "Unified internal search across Drive, Notion, Slack, and Salesforce.",
+    "url": "https://example.com/enterprisesearch",
+    "externalId": "mock_2382238",
+    "launchedAt": "2026-03-28T08:44:31.163Z"
+  }
+]

@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text antialiased;
+  }
+
+  /* Fix for Webkit autofill in dark mode */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #0f172a inset !important;
+    -webkit-text-fill-color: white !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-[40px] border border-white/10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.1),_0_8px_32px_rgba(0,0,0,0.3)];
+  }
+  
+  .glass-card {
+    @apply bg-card/40 backdrop-blur-3xl border border-white/5 shadow-2xl;
+  }
+  
+  .glass-nav {
+    @apply bg-[#0f172a]/40 backdrop-blur-[40px] border-white/10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)];
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+
+.bg-watery-animated {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  overflow: hidden;
+  background-color: #050b14; /* Deep, dark oceanic blue base */
+}
+
+/* Watery floating orbs mimicking Apple Intelligence / iOS 26 background */
+.bg-watery-animated::before,
+.bg-watery-animated::after {
+  content: '';
+  position: absolute;
+  width: 150vw;
+  height: 150vw;
+  max-width: 1200px;
+  max-height: 1200px;
+  border-radius: 50%;
+  filter: blur(140px);
+  opacity: 0.5;
+  animation: blob 20s infinite alternate ease-in-out;
+}
+
+.bg-watery-animated::before {
+  top: -20%;
+  left: -10%;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.4) 0%, rgba(139, 92, 246, 0.2) 50%, transparent 80%);
+  animation-delay: 0s;
+}
+
+.bg-watery-animated::after {
+  bottom: -20%;
+  right: -10%;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.3) 0%, rgba(99, 102, 241, 0.2) 50%, transparent 80%);
+  animation-delay: -5s;
+  animation-direction: alternate-reverse;
+}
+
+/* Add a third blob dynamically via a nested div if needed, but 2 huge ones + dark base creates a beautiful liquid dark mode */
+
+/* Custom Scrollbar to match iOS 26 dark UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
