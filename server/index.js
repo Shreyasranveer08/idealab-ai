@@ -1,4 +1,5 @@
 require('dotenv').config({ path: require('path').resolve(__dirname, '.env'), override: true });
+console.log("DATABASE_URL length:", process.env.DATABASE_URL ? process.env.DATABASE_URL.length : "UNDEFINED");
 const express = require('express');
 const cors = require('cors');
 const { PrismaClient } = require('@prisma/client');
