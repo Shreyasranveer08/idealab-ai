@@ -13,14 +13,13 @@ const ideaValidatorEngine = require('./services/ideaValidatorEngine');
 const prisma = new PrismaClient({
   datasources: {
     db: {
-      url: process.env.DATABASE_URL
+      url: process.env.SUPABASE_DATABASE_URL
     }
   }
 });
 const app = express();
 app.use((req, res, next) => {
-  res.setHeader('X-DB-URL-Len', process.env.DATABASE_URL ? process.env.DATABASE_URL.length : 'UNDEFINED');
-  res.setHeader('X-Env-Keys', Object.keys(process.env).filter(k => k.includes('DATABASE') || k.includes('GEMINI')).join(','));
+  res.setHeader('X-DB-URL-Val', process.env.SUPABASE_DATABASE_URL ? encodeURIComponent(process.env.SUPABASE_DATABASE_URL).substring(0, 20) : 'MISSING');
   next();
 });
 app.use(cors());
