@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  // Added to bust Vercel build cache
 }
 
 datasource db {
